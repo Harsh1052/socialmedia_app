@@ -52,11 +52,13 @@ class CustomDrawer extends StatelessWidget {
               ),
             ],
           ),
-          Align(
-            alignment: Alignment.bottomCenter,
-            child: ListTile(
-              title: Text('Logout'),
-              leading: Icon(Icons.logout),
+          Expanded(
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: ListTile(
+                title: Text('Logout'),
+                leading: Icon(Icons.logout),
+              ),
             ),
           ),
         ],
